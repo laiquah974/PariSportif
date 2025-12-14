@@ -1,0 +1,357 @@
+/* ================= HERO ================= */
+
+.hero{
+    max-width: 1200px;
+    margin: 20px auto 40px;
+    background: #ffffff;
+    padding: 40px 60px;
+    border-top: 4px solid #0ea574;
+    border-bottom: 4px solid #0ea574;
+}
+
+.hero h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #0c6b3f;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* ================= BOXEN ================= */
+
+.running-box,
+.running-levels{
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    background: #ffffff;
+    padding: 40px 60px 60px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ================= BOX 1 ================= */
+
+.running-layout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.running-image{
+    flex: 0 0 45%;
+}
+
+.running-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.running-text{
+    flex: 1;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+.running-stats{
+    margin-top: 25px;
+}
+
+.running-stats-number{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0 0 10px;
+}
+
+.running-stats-caption{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.about-caption {
+    margin: 0;
+}
+
+.about-caption {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* ================= BOX 2 ================= */
+
+.running-where-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.running-where-text{
+    flex: 1;
+}
+
+.running-where-text h2{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 2.2rem;
+    color: #0c6b3f;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.running-where-text p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.btn-running{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 40px;
+    border-radius: 999px;
+    background: #0ea574;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-running:hover,
+.btn-running:focus{
+    background: #0c825c;
+    color: #ffffff;
+}
+
+.running-where-carousel{
+    flex: 0 0 45%;
+    height: 250px;
+    position: relative;
+}
+
+.running-where-carousel .carousel{
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.running-where-carousel .item{
+    height: 100%;
+}
+
+.running-where-carousel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* ================= BOX 3 ================= */
+
+.running-levels h2{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 2.2rem;
+    color: #0c6b3f;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.levels-timeline{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.level{
+    flex: 1 1 220px;
+}
+
+.level-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.level-dot{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #0ea574;
+}
+
+.level-title{
+    font-weight: 700;
+}
+
+.level ul{
+    margin: 0;
+    padding-left: 18px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.running-carousel{
+    position: relative;
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.running-carousel .item{
+    height: 100%;
+}
+
+.running-carousel .item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.running-carousel .carousel-control{
+    background: transparent;
+}
+
+.running-carousel-caption{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.running-carousel-label{
+    display: block;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+/* ================= BOX 4 : MUSIC ================= */
+
+.running-music{
+    padding: 40px 60px;
+}
+
+.running-music-header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.music-icon{
+    font-size: 4rem;
+    flex-shrink: 0;
+}
+
+.music-text h2{
+    margin: 0 0 5px;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #0c6b3f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.music-text p{
+    margin: 0 0 8px;
+    font-size: 1.6rem;
+}
+
+.music-link{
+    font-size: 1.6rem;
+    text-decoration: underline;
+    color: #000;
+    font-weight: 600;
+}
+
+.running-music-player iframe{
+    width: 100%;
+    border: none;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px){
+
+    .hero{
+        padding: 25px 20px 30px;
+    }
+
+    .running-box,
+    .running-levels{
+        padding: 25px 20px 30px;
+    }
+
+    .running-layout,
+    .running-where-content{
+        flex-direction: column;
+    }
+
+    .running-image,
+    .running-where-carousel{
+        flex: 1 1 100%;
+    }
+
+    .running-where-carousel{
+        height: 260px;
+    }
+
+    .running-carousel{
+        height: 160px;
+    }
+
+    .running-carousel .item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    }
+
+    .running-carousel-caption{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+    .running-music{
+        padding: 25px 20px;
+    }
+
+    .running-music-header{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .music-icon{
+        font-size: 3.2rem;
+    }
+}
