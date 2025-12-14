@@ -1,0 +1,156 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.burger{
+    display: none;
+}
+
+.menu{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.menu-main{
+    list-style:none;
+    padding:15px 0;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    font-weight:700;
+}
+
+.menu-main li{
+    position:relative;
+}
+
+.menu-main a{
+    color:#222;
+    text-decoration:none;
+    font-family:'Montserrat', sans-serif;
+    transition:color 0.15s ease;
+}
+
+.menu-main a:hover,
+.menu-main a:focus{
+    color:#0ea574;
+}
+
+/* DROPDOWN */
+.submenu{
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform:translate(-50%, -8px);
+    list-style:none;
+
+    padding:20px 35px;
+    margin:0;
+
+    background:#ffffff;
+    border-radius:14px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
+    min-width:260px;
+
+    opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+    transition:opacity 0.18s ease, transform 0.18s ease;
+}
+
+.submenu li{
+    margin:10px 0;
+}
+
+.submenu a{
+    font-weight:600;
+    color:#333;
+}
+
+.submenu a:hover{
+    color:#0ea574;
+}
+
+.has-sub:hover .submenu{
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto;
+    transform:translate(-50%, 0);
+}
+
+
+/* ---- MOBILE NAV ---- */
+@media (max-width: 768px){
+
+    .menu{
+        justify-content:flex-start;
+        padding:0 20px;
+    }
+
+    .burger{
+        display:block;
+        background:none;
+        border:none;
+        font-size:2.4rem;
+        cursor:pointer;
+        padding:10px 0;
+    }
+
+    .menu-main{
+        position:absolute;
+        top:100%;
+        left:0;
+        right:0;
+
+        flex-direction:column;
+        gap:0;
+        padding:10px 0 15px;
+        margin:0;
+
+        background:#ffffff;
+        box-shadow:0 8px 20px rgba(0,0,0,0.15);
+
+        display:none;
+    }
+
+    .menu-main.is-open{
+        display:flex;
+    }
+
+    .menu-main li{
+        text-align:left;
+        padding:8px 20px;
+    }
+
+    .submenu{
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+
+        box-shadow: none;
+        border-radius: 0;
+        min-width: 0;
+
+        margin: 0 0 5px 20px;
+        padding: 0;
+
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        display: block;
+    }
+
+    .has-sub:hover .submenu{
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+    }
+}
