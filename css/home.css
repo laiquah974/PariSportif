@@ -149,16 +149,11 @@ main img{
 }
 
 .about-caption {
-    text-align: left;
-    margin-top: 8px;
-}
-
-.about-caption {
     margin-top: 10px;
     font-size: 1.3rem;
     font-style: italic;
     color: #555;
-    text-align: center;
+    text-align: left;
 }
 
 .about-image,
