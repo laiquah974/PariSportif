@@ -1,0 +1,116 @@
+:root{
+    --color-bg: #f3f5f7;
+    --color-primary: #0ea574;
+    --color-primary-dark: #0c825c;
+    --color-heading: #0c6b3f;
+    --color-text: #222222;
+    --content-width: 1200px;
+    --header-height: 80px;
+    --box-radius: 14px;
+    --box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:var(--color-bg);
+    color:var(--color-text);
+    padding-top: var(--header-height);
+}
+
+h1, h2, h3{
+    font-family:'Montserrat', sans-serif;
+    color:var(--color-heading);
+    margin-top:0;
+}
+
+p{
+    font-size:1.6rem;
+    line-height:1.8;
+    margin:0 0 1rem;
+}
+
+a{
+    color:var(--color-primary);
+    text-decoration:none;
+}
+
+a:hover,
+a:focus{
+    color:var(--color-primary-dark);
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.wrapper{
+    max-width:var(--content-width);
+    margin:0 auto;
+}
+
+.section-box{
+    max-width:var(--content-width);
+    margin:0 auto 40px;
+    background:#ffffff;
+    padding:40px 60px 60px;
+}
+
+
+.btn-pill{
+    background:var(--color-primary);
+    border:none;
+    border-radius:999px;
+    padding:15px 45px;
+    font-size:1.3rem;
+    font-weight:700;
+    color:#ffffff;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.btn-pill:hover,
+.btn-pill:focus{
+    background:var(--color-primary-dark);
+    color:#ffffff;
+}
+
+.btn{
+    font-family:'Montserrat', sans-serif;
+    font-weight:600;
+}
+
+
+.hero img,
+.tennis-intro img,
+.welcome-section img,
+.content img,
+.map-section iframe,
+.video-wrapper iframe {
+    border-radius: calc(var(--box-radius) - 4px);
+}
+
+.section-box img {
+    border-radius: calc(var(--box-radius) - 4px);
+}
+
+
+.hero,
+.welcome-section,
+.tennis-hero,
+.tennis-intro,
+.tennis-content,
+.section-box,
+main,
+.content,
+.sport-card,
+.equipements,
+.selection-hiver,
+.sources-main,
+.map-section,
+.sport-links {
+    border-radius: 16px;
+}
