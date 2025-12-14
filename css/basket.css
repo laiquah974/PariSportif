@@ -1,0 +1,120 @@
+.hero{
+    max-width: 1200px;
+    margin: 20px auto 40px;
+    background: #ffffff;
+    padding: 40px 60px;
+    border-top: 4px solid #0ea574;
+    border-bottom: 4px solid #0ea574;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.hero h1{
+    margin: 0 0 20px;
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #0c6b3f;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 2.0rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto 60px;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+}
+
+.quote{
+    font-style: italic;
+    border-left: 4px solid #0ea574;
+    padding: 18px 24px;
+    margin: 0 auto 40px;
+    background: #f9f9f9;
+    color: #222;
+    max-width: 800px;
+
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.quote p{
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin: 0 0 10px;
+}
+
+.quote footer{
+    margin-top: 10px;
+    font-weight: 700;
+    font-style: normal;
+    color: #555;
+}
+
+.video-wrapper{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.video-wrapper iframe{
+    width: 800px;
+    height: 450px;
+    max-width: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.basket-text{
+    max-width: 900px;
+    margin: 30px auto 40px;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #222;
+}
+
+/* ===== BOX ===== */
+.video-box,
+.text-quote-box{
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.basket-text{
+    max-width: 900px;
+    margin: 0 auto 30px;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #222;
+}
+
+@media (max-width: 768px){
+
+     .video-box,
+    .text-quote-box{
+        padding: 25px 20px;
+    }
+    
+    .hero,
+    .content{
+        padding: 25px 20px 30px;
+    }
+
+    .video-wrapper iframe{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+}
