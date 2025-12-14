@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Faire du sport en plein air à Paris</title>
+
+    <meta name="author" content="Laurence Cusin-Masset et Laiquah Pandore">
+    <meta name="description" content="Découvrez où courir, jouer au tennis ou au basket 
+        en plein air à Paris grâce à notre carte interactive et nos conseils pratiques.">
+    <meta name="keywords" content="sport plein air Paris, tennis, running, basket, parcs, terrains">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon -->
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/sport.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- HERO -->
+    <section class="sport-hero">
+        <h1>Faire du sport en plein air à Paris</h1>
+        <p>
+            Vous êtes plutôt raquette de tennis, ballon de baskets ou vous préférez plutôt 
+            enfiler une belle paire de chaussures pour aller courir ? Quelque soit vos préférences, 
+            vous retrouverez dans cette page les spots vous permettant de pratiquer votre sport favori.
+        </p>
+    </section>
+
+    <!-- CARTE -->
+    <section class="map-section">
+        <h2>Une carte interactive pour se repérer</h2>
+        <iframe
+            title="Carte des lieux pour faire du sport en plein air à Paris"
+            src="https://www.google.com/maps/d/embed?mid=1dE0VjLq6B2FMIXfa11g2IpUoX3H8Q1U&ehbc=2E312F&noprof=1"
+            loading="lazy">
+        </iframe>
+        <p>
+            Pour vous simplifier la tâche, nous avons regroupé tous les endroits où vous 
+            pouvez faire du sport : terrain de tennis, terrain de basket et parcs pour aller 
+            courir à Paris. Dans cette carte faite sur mesure, retrouvez l’endroit le plus proche 
+            de chez vous pour vous défouler ! Amateurs ou professionnels vous n’avez plus d’excuses 
+            pour louper votre séance de sport. 
+        </p>
+    </section>
+
+    <!-- LIENS VERS LES SPORTS -->
+    <section class="sport-links">
+        <div class="sport-links-grid">
+
+            <div class="sport-card">
+                <h2>Tennis : lob ou smash ?</h2>
+                <p>
+                    Envie de réveiller le Roger Federer ou la Serena Williams qui sommeille en vous ? 
+                    Découvrez tout le champ lexical de ce sport.
+                </p>
+                <a href="tennis.html" class="btn-pill">Je découvre</a>
+            </div>
+
+            <div class="sport-card">
+                <h2>Running</h2>
+                <p>
+                    “Run Forrest Run !” Comme Forrest Gump, courez et ne vous arrêtez plus jamais. 
+                    Débutant.e ou confirmé.e, retrouvez les itinéraires adaptés à votre niveau. 
+                </p>
+                <a href="running.html" class="btn-pill">Je me renseigne</a>
+            </div>
+
+            <div class="sport-card">
+                <h2>Basket</h2>
+                <p>
+                    Prêt.e à faire le plus beau slam dunk ? Direction le terrain de basket le 
+                    plus proche pour apprendre à tirer. Apprenez davantage sur ce sport et soyez 
+                    le prochain Victor Wembanyama. 
+                </p>
+                <a href="basket.html" class="btn-pill">Je m’améliore</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div id="footer"></div>
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- LAYOUT SCRIPT -->
+    <script src="js/layout.js"></script>
+</body>
+</html>
