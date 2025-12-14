@@ -1,0 +1,17 @@
+.sources-main{
+    max-width: var(--content-width);
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 50px 60px;
+}
+
+.sources-main h1{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sources-main p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
