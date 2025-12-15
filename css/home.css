@@ -2,17 +2,9 @@
 .hero{
     /* Permet le positionnement absolu des éléments internes (comme le titre) */
     position: relative;
-
-    /* Largeur maximale du bloc */
     max-width: 1200px;
-
-    /* Espace en haut et en bas, et centré horizontalement */
     margin: 20px auto 40px;
-
-    /* Bordure verte en haut */
     border-top: 4px solid #0ea574;
-
-    /* Bordure verte en bas */
     border-bottom: 4px solid #0ea574;
 }
 
@@ -20,33 +12,15 @@
 
     /* Permet de placer le titre librement sur l’image */
     position: absolute;
-    
-    /* Centré verticalement */
     top: 50%;
-    
-    /* Centré horizontalement */
     left: 50%;
-
-    /* Ajustement exact du centrage */
     transform: translate(-50%, -50%);
     margin: 0;
-
-    /* Police */
     font-family: 'Montserrat', sans-serif;
-
-    /* Très grand texte */
     font-size: 4.8rem;
-
-    /* Texte bien épais */
     font-weight: 800;
-
-    /* Espacement entre les lettres */
     letter-spacing: 4px;
-
-    /* Tout en majuscules */
     text-transform: uppercase;
-
-   /* Texte blanc */
     color: #ffffff;
 
     /* Ombrage pour rendre le texte lisible sur l’image */
@@ -59,13 +33,8 @@
 }
 
 .hero-carousel .item img{
-    /* Image prend toute la largeur */
     width: 100%;
-
-     /* Hauteur fixe du carrousel */
     height: 360px;
-
-    /* L’image garde ses proportions tout en remplissant l’espace */
     object-fit: cover;   
 }
 
@@ -210,6 +179,8 @@ main img{
     line-height: 1.6;
     text-align: center;
 }
+
+<!-- ===== RESPONSIVE DESIGN ===== -->
 
 @media (max-width: 768px) {
     .about-content {
