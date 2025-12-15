@@ -1,40 +1,78 @@
+<!-- ===== HERO ===== -->
 .hero{
+    /* Permet le positionnement absolu des éléments internes (comme le titre) */
     position: relative;
+
+    /* Largeur maximale du bloc */
     max-width: 1200px;
+
+    /* Espace en haut et en bas, et centré horizontalement */
     margin: 20px auto 40px;
+
+    /* Bordure verte en haut */
     border-top: 4px solid #0ea574;
+
+    /* Bordure verte en bas */
     border-bottom: 4px solid #0ea574;
 }
 
 .hero h1{
+
+    /* Permet de placer le titre librement sur l’image */
     position: absolute;
+    
+    /* Centré verticalement */
     top: 50%;
+    
+    /* Centré horizontalement */
     left: 50%;
+
+    /* Ajustement exact du centrage */
     transform: translate(-50%, -50%);
     margin: 0;
 
+    /* Police */
     font-family: 'Montserrat', sans-serif;
+
+    /* Très grand texte */
     font-size: 4.8rem;
+
+    /* Texte bien épais */
     font-weight: 800;
+
+    /* Espacement entre les lettres */
     letter-spacing: 4px;
+
+    /* Tout en majuscules */
     text-transform: uppercase;
 
+   /* Texte blanc */
     color: #ffffff;
+
+    /* Ombrage pour rendre le texte lisible sur l’image */
     text-shadow:
         0 3px 10px rgba(0,0,0,0.35),
         0 8px 30px rgba(0,0,0,0.45);
 
+    /* Met le texte au-dessus de l’image */
     z-index: 5;
 }
 
 .hero-carousel .item img{
+    /* Image prend toute la largeur */
     width: 100%;
+
+     /* Hauteur fixe du carrousel */
     height: 360px;
-    object-fit: cover;
+
+    /* L’image garde ses proportions tout en remplissant l’espace */
+    object-fit: cover;   
 }
 
+/* Positionne les indicateurs (points) en bas du carrousel */
 #myCarousel .carousel-indicators{
     bottom: 10px;
+    
 }
 
 #myCarousel .carousel-control{
@@ -48,7 +86,7 @@
     transform: translateY(-50%);
 }
 
-/* ===== WELCOME + MAIN ===== */
+/* ===== TITRES GÉNÉRAUX ===== */
 .welcome-section h2,
 main h2{
     margin-top: 0;
