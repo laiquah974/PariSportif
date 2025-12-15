@@ -1,3 +1,9 @@
+/* =========================
+   SECTION HERO – EN-TÊTE
+   ========================= */
+
+/* Conteneur principal de la section hero */
+
 .tennis-hero{
     max-width: 1200px;
     margin: 20px auto 40px;
@@ -7,6 +13,7 @@
     border-bottom: 4px solid #0ea574;
 }
 
+/* Titre principal de la page */
 .tennis-hero h1{
     margin-top: 0;
     margin-bottom: 20px;
@@ -18,12 +25,17 @@
     text-align: center;
 }
 
+/* Paragraphe de présentation dans le hero */
 .tennis-hero p{
     font-size: 1.8rem;
     line-height: 1.8;
     margin: 0;
 }
 
+
+/* =========================
+   SECTION INTRODUCTION
+   ========================= */
 
 .tennis-intro{
     max-width: 1200px;
@@ -32,6 +44,7 @@
     padding: 40px 60px 60px;
 }
 
+/* Titre secondaire */
 .tennis-intro h2{
     margin-top: 0;
     margin-bottom: 20px;
@@ -41,26 +54,33 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Texte d’introduction */
 .tennis-intro p{
     font-size: 1.8rem;
     line-height: 1.8;
 }
 
+/* Figure contenant une image et sa légende */
 .tennis-intro figure{
     margin: 30px auto 0;
     text-align: left;
 }
 
+/* Image responsive */
 .tennis-intro img{
     max-width: 100%;
     height: auto;
     border-radius: 6px;
 }
 
+/* Légende de l’image */
 .tennis-intro .about-caption {
     margin: 0;
 }
 
+/* =========================
+   SECTION CONTENU PRINCIPAL
+   ========================= */
 .tennis-intro .about-caption {
     margin-top: 10px;
     font-size: 1.3rem;
@@ -98,6 +118,9 @@
     color: #0c825c;
 }
 
+/* =========================
+   GLOSSAIRE
+   ========================= */
 .glossaire{
     margin-top: 30px;
     padding-top: 10px;
@@ -128,6 +151,9 @@
     line-height: 1.6;
 }
 
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
 
 @media (max-width: 768px){
 
