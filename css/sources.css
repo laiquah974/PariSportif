@@ -1,3 +1,6 @@
+/* =========================
+   SECTION SOURCES
+   ========================= */
 .sources-main{
     max-width: var(--content-width);
     margin: 60px auto;
@@ -5,12 +8,14 @@
     padding: 50px 60px;
 }
 
+/* Titre principal de la page Sources */
 .sources-main h1{
     font-size: 2.8rem;
     margin-bottom: 20px;
     text-align: center;
 }
 
+/* Paragraphes contenant les sources et descriptions */
 .sources-main p{
     font-size: 1.4rem;
     line-height: 1.6;
