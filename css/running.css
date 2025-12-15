@@ -26,7 +26,7 @@
     margin: 0;
 }
 
-/* ================= BOXEN ================= */
+/* ================= BLOC ================= */
 
 .running-box,
 .running-levels{
@@ -38,7 +38,7 @@
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-/* ================= BOX 1 ================= */
+/* ================= BLOC 1 : TEXTE + IMAGE ================= */
 
 .running-layout{
     display: flex;
@@ -91,7 +91,7 @@
     color: #555;
 }
 
-/* ================= BOX 2 ================= */
+/* ================= BLOC 2 : CHOISIR SES CHAUSSURES ================= */
 
 .running-where-content{
     display: flex;
@@ -162,7 +162,7 @@
     display: block;
 }
 
-/* ================= BOX 3 ================= */
+/* ================= BLOC 3 : COURIR SELON SON NIVEAU ================= */
 
 .running-levels h2{
     margin-top: 0;
@@ -249,7 +249,7 @@
     margin-bottom: 6px;
 }
 
-/* ================= BOX 4 : MUSIC ================= */
+/* ================= BLOC 4 : MUSIQUE ================= */
 
 .running-music{
     padding: 40px 60px;
@@ -294,7 +294,7 @@
 }
 
 
-/* ================= RESPONSIVE ================= */
+/* ================= RESPONSIVE DESIGN ================= */
 
 @media (max-width: 768px){
 
