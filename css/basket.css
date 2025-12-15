@@ -1,3 +1,8 @@
+/* =========================
+   SECTION HERO
+   ========================= */
+
+/* Bloc d’introduction principal de la page */
 .hero{
     max-width: 1200px;
     margin: 20px auto 40px;
@@ -9,6 +14,7 @@
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
+/* Titre principal dans la section hero */
 .hero h1{
     margin: 0 0 20px;
     font-size: 2.8rem;
@@ -17,12 +23,19 @@
     text-align: center;
 }
 
+/* Texte descriptif sous le titre */
 .hero p{
     font-size: 2.0rem;
     line-height: 1.8;
     margin: 0;
 }
 
+
+/* =========================
+   CONTENU PRINCIPAL
+   ========================= */
+
+/* Conteneur principal du contenu */
 .content{
     max-width: 1200px;
     margin: 0 auto 60px;
@@ -32,6 +45,11 @@
     border-radius: 0;
     text-align: center;
 }
+
+
+/* =========================
+   CITATION
+   ========================= */
 
 .quote{
     font-style: italic;
@@ -59,6 +77,11 @@
     color: #555;
 }
 
+
+/* =========================
+   VIDÉO
+   ========================= */
+
 .video-wrapper{
     margin: 0;
     display: flex;
@@ -74,6 +97,10 @@
     box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
 
+/* =========================
+   TEXTE ASSOCIÉ AU BASKET
+   ========================= */
+
 .basket-text{
     max-width: 900px;
     margin: 30px auto 40px;
@@ -82,7 +109,12 @@
     color: #222;
 }
 
-/* ===== BOX ===== */
+
+
+/* =========================
+   BOÎTES DE CONTENU
+   ========================= */
+/* Boîtes englobant la vidéo et la citation */
 .video-box,
 .text-quote-box{
     background: #ffffff;
@@ -92,6 +124,7 @@
     margin-bottom: 40px;
 }
 
+/* Redéfinition du texte basket dans ce contexte */
 .basket-text{
     max-width: 900px;
     margin: 0 auto 30px;
@@ -99,6 +132,10 @@
     line-height: 1.8;
     color: #222;
 }
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
 
 @media (max-width: 768px){
 
