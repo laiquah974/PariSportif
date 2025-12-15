@@ -1,35 +1,77 @@
+/* =========================
+   VARIABLES CSS GLOBALES
+   ========================= */
+
+/* Définition des variables CSS réutilisables sur l’ensemble du site */
+
 :root{
+    /* Couleur de fond principale du site */
     --color-bg: #f3f5f7;
+
+    /* Couleur principale (boutons, liens, accents graphiques) */
     --color-primary: #0ea574;
+
+    /* Variante plus foncée pour les états hover */
     --color-primary-dark: #0c825c;
+
+    /* Couleur des titres */
     --color-heading: #0c6b3f;
+
+    /* Couleur principale du texte */
     --color-text: #222222;
+
+    /* Largeur maximale du contenu */
     --content-width: 1200px;
+
+    /* Hauteur du header (utile pour le menu sticky) */
     --header-height: 80px;
+
+    /* Rayon par défaut des angles arrondis */
     --box-radius: 14px;
+
+    /* Ombre portée utilisée sur les blocs */
     --box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
 }
 
+
+/* =========================
+   STYLES GÉNÉRAUX
+   ========================= */
+
+/* Styles globaux du body */
 body{
+
+    /* Suppression des marges par défaut */
     margin:0;
+
+    /* Police par défaut pour le texte */
     font-family: Arial, Helvetica, sans-serif;
+
+    /* Couleur de fond générale */
     background:var(--color-bg);
+
+    /* Couleur du texte */
     color:var(--color-text);
+
+    /* Décalage du contenu pour compenser le header fixe */
     padding-top: var(--header-height);
 }
 
+/* Titres de niveau 1 à 3 */
 h1, h2, h3{
     font-family:'Montserrat', sans-serif;
     color:var(--color-heading);
     margin-top:0;
 }
 
+/* Paragraphes */
 p{
     font-size:1.6rem;
     line-height:1.8;
     margin:0 0 1rem;
 }
 
+/* Liens */
 a{
     color:var(--color-primary);
     text-decoration:none;
