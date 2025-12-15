@@ -180,7 +180,11 @@ main img{
     text-align: center;
 }
 
-<!-- ===== RESPONSIVE DESIGN ===== -->
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
 
 @media (max-width: 768px) {
     .about-content {
