@@ -77,54 +77,84 @@ a{
     text-decoration:none;
 }
 
+/* États hover et focus des liens */
 a:hover,
 a:focus{
     color:var(--color-primary-dark);
     text-decoration:none;
 }
 
+/* Images */
 img{
     max-width:100%;
     height:auto;
     display:block;
 }
 
+
+/* =========================
+   CONTENEURS ET BLOCS
+   ========================= */
+
+/* Wrapper générique pour centrer le contenu */
 .wrapper{
     max-width:var(--content-width);
     margin:0 auto;
 }
 
+/* Bloc de section réutilisable */
 .section-box{
     max-width:var(--content-width);
     margin:0 auto 40px;
     background:#ffffff;
+
+   /* Espacement interne */
     padding:40px 60px 60px;
 }
 
+/* =========================
+   BOUTONS
+   ========================= */
 
+/* Bouton en forme de pilule */
 .btn-pill{
     background:var(--color-primary);
     border:none;
+
+   /* Forme arrondie */
     border-radius:999px;
+
+   * Espacement interne du bouton */
     padding:15px 45px;
+
+   /* Taille et poids du texte */
     font-size:1.3rem;
     font-weight:700;
+
+   /* Couleur du texte */
     color:#ffffff;
+
+   /* Permet l’affichage correct sur les liens */
     display:inline-block;
     cursor:pointer;
 }
 
+/* États hover et focus du bouton */
 .btn-pill:hover,
 .btn-pill:focus{
     background:var(--color-primary-dark);
     color:#ffffff;
 }
 
+/* Boutons Bootstrap personnalisés */
 .btn{
     font-family:'Montserrat', sans-serif;
     font-weight:600;
 }
 
+/* =========================
+   IMAGES ET MÉDIAS
+   ========================= */
 
 .hero img,
 .tennis-intro img,
@@ -135,11 +165,16 @@ img{
     border-radius: calc(var(--box-radius) - 4px);
 }
 
+/* Images à l’intérieur des sections */
 .section-box img {
     border-radius: calc(var(--box-radius) - 4px);
 }
 
+/* =========================
+   ARRONDIS GLOBAUX
+   ========================= */
 
+/* Application d’angles arrondis sur les principaux blocs du site */
 .hero,
 .welcome-section,
 .tennis-hero,
