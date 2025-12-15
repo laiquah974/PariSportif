@@ -217,6 +217,9 @@ main p{
     text-decoration: underline;
 }
 
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
 
 @media (max-width: 768px){
 
