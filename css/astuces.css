@@ -1,36 +1,91 @@
+/* =========================
+   SECTION HERO
+   ========================= */
+
+/* Conteneur principal de la section hero */
+
 .hero{
+
+    /* Largeur maximale pour limiter l’étirement sur grands écrans */
     max-width: 1200px;
+
+    /* Centrage horizontal + marges verticales */
     margin: 20px auto 40px;
+
+    /* Fond blanc pour contraster avec le fond général du site */
     background: #ffffff;
+
+    /* Espacement interne pour aérer le contenu */
     padding: 40px 60px;
+
+    /* Bordures colorées en haut et en bas pour souligner la section */
     border-top: 4px solid #0ea574;
     border-bottom: 4px solid #0ea574;
 }
 
+/* Titre principal de la section hero */
 .hero h1{
+
+    /* Suppression de la marge supérieure par défaut */
     margin-top: 0;
+
+    /* Espacement sous le titre */
     margin-bottom: 20px;
+
+    /* Police utilisée pour les titres */
     font-family: 'Montserrat', sans-serif;
+    
+    /* Taille de police importante pour hiérarchiser l’information */
     font-size: 2.6rem;
+
+    /* Épaisseur du texte pour renforcer la visibilité */
     font-weight: 800;
+
+    /* Espacement entre les lettres pour un rendu plus lisible */
     letter-spacing: 1px;
+
+    /* Couleur principale du site */
     color: #0c6b3f;
+
+    /* Centrage du texte */
     text-align: center;
 }
-
+/* Texte descriptif de la section hero */
 .hero p{
+
+    /* Taille de police confortable pour la lecture */
     font-size: 1.6rem;
+
+    /* Hauteur de ligne pour améliorer la lisibilité */
     line-height: 1.8;
+
+    /* Suppression des marges par défaut */
     margin: 0;
 }
 
+
+
+/* =========================
+   CONTENU PRINCIPAL
+   ========================= */
+
+/* Balise main : conteneur du contenu principal */
 main{
+    /* Largeur maximale identique à la hero pour la cohérence */
     max-width: 1200px;
+
+    /* Centrage horizontal et marge basse */
     margin: 0 auto 60px;
+
+    /* Espacement interne */
     padding: 0 60px 60px;
+
+    /* Fond blanc */
     background: #ffffff;
 }
 
+
+/* Titres de niveau 2 dans le contenu principal */
 main h2{
     margin-top: 0;
     margin-bottom: 20px;
@@ -40,19 +95,31 @@ main h2{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Paragraphes du contenu principal */
 main p{
     font-size: 1.6rem;
     line-height: 1.8;
 }
 
+
+/* =========================
+   SECTION ASTUCES
+   ========================= */
+
+/* Conteneur de la section astuces */
 .astuces{
     max-width: 1200px;
     margin: 0 auto 40px;
     background: #ffffff;
+
+    /* Espacement interne important pour structurer la section */
     padding: 40px 60px 60px;
+
+     /* Angles arrondis pour un rendu moderne */
     border-radius: 12px;
 }
 
+/* Titre de la section astuces */
 .astuces h2{
     margin-top: 0;
     margin-bottom: 20px;
@@ -62,16 +129,24 @@ main p{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Texte de la section astuces */
 .astuces p{
     font-size: 1.8rem;
     line-height: 1.8;
 }
 
+/* Figure (image) centrée */
 .astuces figure{
     margin: 30px auto 0;
     text-align: center;
 }
 
+
+/* =========================
+   SECTION SÉLECTION FROID
+   ========================= */
+
+/* Conteneur principal de la section */
 .selection-froid{
     max-width: 1200px;
     margin: 0 auto 60px;
@@ -80,6 +155,7 @@ main p{
     border-radius: 12px;
 }
 
+/* Titre de la section */
 .selection-froid h2{
     margin-top: 0;
     margin-bottom: 30px;
@@ -90,6 +166,7 @@ main p{
     text-align: center;
 }
 
+/* Grille flexible pour afficher les éléments côte à côte */
 .selection-froid-grid{
     display: flex;
     flex-wrap: wrap;
@@ -97,24 +174,41 @@ main p{
     gap: 40px;
 }
 
+/* Élément individuel de la grille */
 .selection-froid-item{
+    /* Largeur flexible adaptée au responsive */
     flex: 1 1 30%;
     text-align: center;
 }
 
+/* Images cliquables */
 .selection-froid-item img{
     width: 100%;
     height: 260px;
+
+    /* Ajustement de l’image sans déformation */
     object-fit: cover;
+
+    /* Angles arrondis */
     border-radius: 12px;
     display: block;
+
+    /* Transition pour l’animation au survol */
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Effet visuel au survol de la souris */
 .selection-froid-item:hover img{
+     /* Légère élévation de l’image */
     transform: translateY(-4px);
+    /* Ombre portée pour donner un effet de profondeur */
     box-shadow: 0 10px 25px rgba(0,0,0,0.18);
 }
+
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
 
 
 @media (max-width: 768px){
