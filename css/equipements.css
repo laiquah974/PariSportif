@@ -86,7 +86,7 @@ main p{
     align-items: center;
 }
 
-/* ===== QUOTE ===== */
+/* ===== CITATION ===== */
 .quote{
     font-style: italic;
     border-left: 4px solid #0ea574;
@@ -113,7 +113,7 @@ main p{
     color: #555;
 }
 
-/* ===== BOX 2 ===== */
+/* ===== BLOC 2 ===== */
 
 .sports-equipements{
     max-width: 1200px;
@@ -155,7 +155,7 @@ main p{
     color: #0c6b3f;
 }
 
-/* ===== BOX 3 ===== */
+/* ===== BLOC 3 ===== */
 
 .season-guides{
     max-width: 1200px;
