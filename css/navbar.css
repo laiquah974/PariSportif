@@ -1,3 +1,4 @@
+/* ----- HEADER ----- */
 header{
     position: fixed;
     top: 0;
@@ -8,15 +9,18 @@ header{
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
+/* ----- BOUTON BURGER (CACHÉ PAR DÉFAUT) ----- */
 .burger{
     display: none;
 }
 
+/* ----- CONTENEUR DU MENU ----- */
 .menu{
     max-width:1200px;
     margin:0 auto;
 }
 
+/* ----- MENU PRINCIPAL ----- */
 .menu-main{
     list-style:none;
     padding:15px 0;
@@ -27,10 +31,12 @@ header{
     font-weight:700;
 }
 
+/* Chaque élément du menu peut contenir un sous-menu */
 .menu-main li{
     position:relative;
 }
 
+/* Style des liens principaux */
 .menu-main a{
     color:#222;
     text-decoration:none;
@@ -38,12 +44,13 @@ header{
     transition:color 0.15s ease;
 }
 
+/* Changement de couleur au survol ou focus */
 .menu-main a:hover,
 .menu-main a:focus{
     color:#0ea574;
 }
 
-/* DROPDOWN */
+/* SOUS-MENU */
 .submenu{
     position:absolute;
     top:100%;
@@ -86,7 +93,7 @@ header{
 }
 
 
-/* ---- MOBILE NAV ---- */
+/* ---- RESPONSIVE DESIGN ---- */
 @media (max-width: 768px){
 
     .menu{
