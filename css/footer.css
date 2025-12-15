@@ -1,21 +1,34 @@
+/* Définition du style général du pied de page */
 .footer{
+
+    /* Couleur de fond sombre */
     background:#222;
+    /* Texte en blanc */
     color:#ffffff;
+    /* Espacement intérieur en haut et en bas */
     padding:20px 0;
+    * Espace au-dessus du pied de page */
     margin-top:40px;
 }
 
+/* Contenu interne du pied de page */
 .footer-content{
+    /* Largeur maximale du contenu */
     max-width:1200px;
+    /* Centre le contenu horizontalement */
     margin:0 auto;
+    /* Aligne le texte au centre */
     text-align:center;
 }
 
+/* Liens à l’intérieur du pied de page */
 .footer-content a{
     color:#a5ffd4;
+    /* Espacement horizontal entre les liens */
     margin:0 10px;
 }
 
+/* Texte de type titre dans le pied de page */
 .footer-content h4{
     font-size:0.8rem;
     margin-top:10px;
